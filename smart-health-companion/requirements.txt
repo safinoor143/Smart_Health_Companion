@@ -1,0 +1,8 @@
+# website
+flask
+requests
+# machine-learning scripts (run on the computer, not on the board)
+numpy
+scikit-learn
+matplotlib
+pyserial

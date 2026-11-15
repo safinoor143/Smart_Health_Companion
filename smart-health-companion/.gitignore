@@ -1,0 +1,14 @@
+# secrets and private data: never commit these
+telegram.token
+secret.key
+*.token
+*.key
+.env
+*.db
+# generated / local files
+__pycache__/
+*.pyc
+ml/data_rejected/
+ml/figures/
+ml/results*.txt
+ml/fallmodel.py
