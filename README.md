@@ -8,7 +8,7 @@ A low-cost wrist-worn **fall detector** (ESP32 + MPU6050) and a multi-user **car
 
 | Folder | Contents |
 |---|---|
-| `website/` | Flask website: accounts (patient / caregiver), reminders, vitals, routines, appointments, fall alerts, Telegram alerts |
+| `website/` | Flask website: accounts (patient / caregiver), reminders, vitals, routines, appointments, fall alerts, Telegram alerts and a health assistant chatbot (`chat.py`) |
 | `firmware/` | MicroPython code for the ESP32 (`main.py` = normal use, `main_collect.py` = data recording, `main_ml.py` = learned model) |
 | `ml/` | Scripts for recording, cleaning, training and evaluating the fall classifier |
 | `data/` | `fall_recordings.zip`: 254 labelled 4-second wrist recordings (`s1`..`s4`) with `labels.csv`. **Unzip it into this folder before running the ML scripts.** |
