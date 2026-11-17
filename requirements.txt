@@ -1,5 +1,6 @@
 # website
 flask
+gunicorn
 requests
 # machine-learning scripts (run on the computer, not on the board)
 numpy
